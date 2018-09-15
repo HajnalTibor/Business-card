@@ -49,13 +49,30 @@ img:hover {
   margin-top: -60px;
 }
 .name-headline{
-
 }
 .about{
   margin-bottom: 10%;
 }
 .links{
   text-align: center;
+}
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: blue;
+}
+
+/* mouse over link */
+a:hover {
+    color: gray;
+}
+
+/* selected link */
+a:active {
+    color: gray;
 }
 ul {
   list-style-type: none;
